@@ -1,0 +1,384 @@
+body{
+    background-image: url('Johnny Depp img/JD-fond (2).jpg');
+    background-size: contain;
+}
+body{
+    margin: 0px;
+    padding:0px;
+    
+}
+
+.header{
+    color:white;
+    background-color:white;
+    height: 100%;
+    margin: 15px;
+    color: white;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    color: white;
+   
+}
+ul li a:hover{
+    color:green;
+    text-decoration: underline;
+}
+
+
+
+
+.Depp{
+    text-align: center;
+    color:white;
+    font-family:Jazz Let fantasy
+}
+
+.titre{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#texte{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* style pour l'image*/
+
+.Actualités img{
+    width: 190px;
+   height: 190px;
+   justify-content: end;
+
+}
+
+.Actualités{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+
+.text {
+    width: 70%;
+}
+
+#text{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Style pour l'image*/
+
+img{
+width: 200px;
+    height: 200px; 
+}    
+
+titre{
+    color:white;
+    font-family: Jazz Let fantasy;
+}
+
+.parfum{
+    display: flex;
+    flex-direction: row;
+    margin: left 100px;
+align-items: center;
+}
+
+/* style pour l'image*/
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+.paragraphe{
+    color:rgb(28, 28, 31);
+    margin-left: 200px;
+   text-align:center;
+}
+
+
+
+.titre{
+    color:green;
+    text-align: center;
+    text-decoration: underline;
+    font-family:Jazz Let fantasy ;
+    text-transform: uppercase; 
+}
+
+
+.Biographie{
+    color:chartreuse;
+    text-align: center;
+    border: solid;
+    border-color:white;
+    border-radius: 10px;
+    font-style: bold;
+    display: flex;             /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center;        /* Aligner verticalement */
+    padding-right: 40px;            /* Espacement interne */
+    max-width: 3000px;          /* Largeur maximale du conteneur */
+    margin: 20px;
+    flex-direction: column;       
+
+}
+
+
+
+
+
+
+.image-container {
+    max-width: 100%;            /* L'image s'adapte à la largeur de son conteneur */
+    height: auto;               /* Conserver le ratio d'aspect */
+    border-radius: 10px;        /* Ajouter des coins arrondis à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+                  
+    display: flex;
+    justify-content: center;  
+
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+/*style pour l'image*/
+
+img{
+    height: 500px; ;
+    width: 500px; ;
+}
+
+
+.Actualités{
+    color: chartreuse;
+    text-align: center;
+}
+
+reseaux sociaux{
+    align-items: center;
+}
+
+
+ .footer-bottom {
+        text-align: center;         /* Centrer le texte du bas du footer */
+        padding: 10px 0;           /* Espacement intérieur */
+        border-top: 1px solid; /* Ligne supérieure pour séparer le contenu */
+        color: black;
+        background-color: black (171, 129, 165, 0.5); /* Fond semi-transparent pour le texte */
+    }
+    
+    .footer-bottom p {
+        margin: 5px 0; 
+        color: white;            /* Espacement entre les lignes */
+    }
+    
+    .footer-bottom a {
+        color: darkgray;             /* Couleur des liens */
+        text-decoration: none;      /* Supprimer le soulignement des liens */
+    }
+    
+    .footer-bottom a:hover {
+        text-decoration: underline; /* Souligner le lien au survol */
+    }
+
+
+
+
+
+
+
+    @media only screen and (max-width:868px) {
+        .header a {
+            font-size: 10px;
+        margin: 5px;
+        
+        }
+        ul{
+            display:flex;
+            justify-content: center;
+            margin-right: 35px;
+
+
+        }
+        .Biographie{
+          width: 480px;
+        margin-left: 200px;
+          
+
+        
+        }
+        .header{
+            width: 800px;
+            margin-left: 30px;
+
+        }
+        .titre{
+            margin-left: 135px;
+        
+        }
+
+    }
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:868px) {
+        .header a {
+            font-size: 10px;
+        margin: 5px;
+        
+        }
+        ul{
+            display:flex;
+            justify-content: center;
+            margin-right: 35px;
+
+
+        }
+        .Biographie{
+          width: 480px;
+        margin-left: 200px;
+          
+
+        
+        }
+        .header{
+            width: 800px;
+            margin-left: 30px;
+
+        }
+        .titre{
+            margin-left: 135px;
+        
+        }
+
+    } 
+
+
+
+    @media only screen and (max-width:846px) {
+        .header a {
+            font-size: 10px;
+        margin: 5px;
+        
+        }
+        ul{
+            display:flex;
+            justify-content: center;
+            margin-right: 35px;
+
+
+        }
+        .Biographie{
+          width: 480px;
+        margin-left: 200px;
+          
+
+        
+        }
+        .header{
+            width: 800px;
+            margin-left: 30px;
+
+        }
+        .titre{
+            margin-left: 135px;
+        
+        }
+
+    }
+
+
+
+
+
+    @media only screen and (max-width:831px){
+        .header a {
+            font-size: 10px;
+        margin: 5px;
+        margin-right: 40px;
+        
+        }
+        ul{
+            display:flex;
+            justify-content: center;
+            margin-right: 40px;
+
+
+        }
+        .Biographie{
+          width: 480px;
+        margin-left: 200px;
+          
+
+        
+        }
+        .header{
+            width: 800px;
+          margin-right: 20px;
+
+        }
+        .titre{
+            margin-left: 100px;
+    
+        }
+
+    }
+     
+
+
+        @media only screen and (max-width:425px){
+            .header a {
+                font-size: 10px;
+            margin: 5px;
+            margin-right: 40px;
+            
+            }
+            ul{
+                display:flex;
+                justify-content: center;
+                margin-right: 40px;
+    
+    
+            }
+            .Biographie{
+              width: 480px;
+            margin-left: 200px;
+              
+    
+            
+            }
+            .header{
+                width: 800px;
+              margin-right: 20px;
+    
+            }
+           
+
+         .titre{
+            margin-left: 50px;
+         }
+
+
+
+        }
+     

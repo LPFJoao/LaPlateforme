@@ -1,0 +1,92 @@
+body {
+    background-color: darksalmon;
+    margin: auto;}
+
+    .container {  display: grid;
+        grid-template-columns: 30px 1fr 1fr 1fr 30px;
+        grid-template-rows: 50px 70px 70px 40px 40px 40px 40px 40px 40px 50px;
+        gap: 30px 10px;
+        grid-auto-flow: row;
+      }
+      
+      .Header { grid-area: 1 / 1 / 2 / 6; 
+                background-color: rgb(220, 20, 60);
+                }
+
+      .navigation { grid-area: 1 / 2 / 2 / 3;
+                    
+                    align-content: center;
+                    
+                    
+                     }
+      
+      .recherche { grid-area: 1 / 4 / 2 / 5; 
+                    justify-self: end; 
+                    align-self: center;
+                    }
+      
+      .tittle { align-self: center;
+                text-align: center;
+                grid-area: 2 / 3 / 3 / 4; }
+      
+      .sub-tittle { grid-area: 3 / 2 / 4 / 3;
+                    place-self: center stretch; }
+      
+      .vertical-menu {  place-self: start ;
+                        grid-area: 4 / 2 / 5 / 3; }
+      
+      .nom { grid-area: 5 / 2 / 6 / 3; }
+      
+      .premon { grid-area: 6 / 2 / 7 / 3; }
+      
+      .check-box { grid-area: 7 / 2 / 8 / 3; 
+                    align-content: center;}
+      
+      .boton-valid { grid-area: 8 / 2 / 9 / 3; }
+      
+      .merci { place-self: center start;
+                grid-area: 9 / 2 / 10 / 5; }
+
+      .footer { grid-area: 10 / 1 / 11 / 6; 
+                background-color: rgb(220, 20, 60);
+                align-self: end;}
+
+
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}  
+
+h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+.contact-menu {
+    display: grid;
+    align-items: center;
+
+}
+
+.recherche input {
+    border: 2px;
+    border-radius: 8px;
+}
+
+.navigation nav {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.navigation nav:last-child {
+    margin-right: 0;
+}

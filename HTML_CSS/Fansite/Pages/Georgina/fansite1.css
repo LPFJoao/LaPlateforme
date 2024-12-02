@@ -1,0 +1,321 @@
+body {
+    background-image: url('../../images/fond_beauté.avif');
+    background-size: cover; /* Redimensionne l'image pour qu'elle couvre tout l'écran */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+}
+main{
+    margin-bottom: 5%;
+}
+
+.titre {
+    font-family:fantasy;
+    font-size: 30px;
+    color: rgb(87, 5, 69);
+    padding: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celebrity{
+    font-size: large;
+    font-family: fantasy;
+
+}
+
+.navbar {
+    background-color: #d387bf;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.navbar a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.News {
+
+    border: solid;
+    border-color: #422448;
+    border-radius: 10px;
+    display: flex;             /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center;        /* Aligner verticalement */
+    padding: 20px;              /* Espacement interne */
+    max-width: 1200px;          /* Largeur maximale du conteneur */
+    margin: 20px;  
+}
+
+.text-container{
+    display: flex;
+    align-items: center;    /* Centrer verticalement le contenu */
+    position: relative;     /* Nécessaire pour positionner le texte */
+    width: 80%;            /* Largeur du conteneur */
+  
+    margin: 20px auto;     /* Centrer le conteneur */
+    overflow: hidden;       /* Pour cacher le débordement éventuel */
+    transition: all 0.3s ease; /* Transition douce pour tous les changements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: none; /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte */
+    max-width: 60%;             /* Limiter la largeur du texte */
+    padding-left: 20px;         /* Espacement entre l'image et le texte */
+}
+.text-container:hover {
+    background-color: #422448; /* Couleur de fond au survol */
+   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Augmenter l'ombre au survol */
+    transform: translateY(-5px); /* Déplacer légèrement le conteneur vers le haut */
+}
+.image-container img {
+    max-width: 100%;            /* L'image s'adapte à la largeur de son conteneur */
+    height: auto;               /* Conserver le ratio d'aspect */
+    border-radius: 10px;        /* Ajouter des coins arrondis à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    width: 300px;               /* Largeur fixe de l'image */
+}
+
+
+.content-container {
+    display: flex;             /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center;        /* Aligner verticalement */
+    padding: 20px;              /* Espacement interne */
+    max-width: 1200px;          /* Largeur maximale du conteneur */
+    margin: 0 auto;             /* Centrer le conteneur */
+}
+
+.image-container img {
+    max-width: 100%;            /* L'image s'adapte à la largeur de son conteneur */
+    height: 250px;               /* Conserver le ratio d'aspect */
+    border-radius: 10px;        /* Ajouter des coins arrondis à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    width: 300px;               /* Largeur fixe de l'image */
+}
+.image-container img:hover{
+    background-image: url('img_celebrity/georgina.jpg');   /* image de fond au survol */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Augmenter l'ombre au survol */
+    transform: translateY(-5px); /* Déplacer légèrement le conteneur vers le haut */
+ 
+}
+
+.block_actu{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+h2 {
+    margin-top: 0;              /* Supprimer la marge supérieure du titre */
+    color:#d7a0c7;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+h3 {
+    color:#300122;
+}
+
+p {
+    line-height: 1.6;           /* Améliorer la lisibilité du texte */
+    color: white;
+}
+
+
+
+
+
+
+.Realisation{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    border: solid;
+    border-color: #422448;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.info_realisation {
+   margin: 15px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* ajouter la curseure*/
+    font-size: 18px;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    max-height: 120px; /* Hauteur maximale initiale */
+    max-width: 60%;
+    overflow: hidden; /* Cache l'excès de texte */
+    transition: max-height 0.3s ease; /* Animation de la hauteur de conteneur de text */   
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte */
+    padding: 10px;
+    border:none;   
+    border-radius: 10px;       /* Ajouter des coins arrondis à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */   
+    width: 400px;        /* Largeur du conteneur */
+    height: 200px;       /* Hauteur fixe du conteneur */
+    overflow: auto;      /* Ajoute le défilement si le contenu dépasse la hauteur */   
+    border:none;
+    padding: 10px;
+}
+
+.info_realisation:hover {
+    background-color: #422448; /* Couleur de fond au survol */
+   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Augmenter l'ombre au survol */
+    transform: translateY(-5px); /* Déplacer légèrement le conteneur vers le haut */
+    max-height: 200px; /* Hauteur augmentée pour montrer tout le texte */
+}
+   
+
+    
+
+
+
+
+.evenements{
+    border: solid;
+    border-color: #422448;
+    border-radius: 10px;
+    display: flex;             /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center;        /* Aligner verticalement */
+    padding: 20px;              /* Espacement interne */
+    max-width: 1200px;          /* Largeur maximale du conteneur */
+    margin: 20px;    
+}
+
+.text_event{
+    
+   margin: 15px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* ajouter la curseure*/
+    font-size: 18px; 
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    max-height: 120px; /* Hauteur maximale initiale */
+    max-width: 60%;
+    overflow: hidden; /* Cache l'excès de texte */
+    transition: max-height 0.3s ease; /* Animation de la hauteur de conteneur de text */   
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte */
+    padding: 10px;
+    border:none;   
+    border-radius: 10px;       /* Ajouter des coins arrondis à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */   
+    width: 400px;        /* Largeur du conteneur */
+    height: 400px;       /* Hauteur fixe du conteneur */
+    overflow: auto;      /* Ajoute le défilement si le contenu dépasse la hauteur */   
+    border:none;
+    padding: 10px;
+}
+ 
+  
+ 
+.album{
+    border: solid;
+    border-color: #422448;
+    border-radius: 10px;
+
+    display: flex;             /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center;        /* Aligner verticalement */
+    padding: 20px;              /* Espacement interne */
+    max-width: 1200px;          /* Largeur maximale du conteneur */
+    margin: 20px;
+    display: flex; /* Activer Flexbox */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.album img{ width:250px ;
+            height: 250px;
+            overflow: hidden;
+            object-fit: contain;
+}
+
+.social-buttons {   
+    gap: 10px; /* espace entre les boutons */
+    display: flex; /* Activer Flexbox */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.btn {
+    padding: 10px 15px; /* espacement interne */
+    border: none;
+    border-radius: 5px; /* coins arrondis */
+    color: white; /* couleur du texte */
+    text-decoration: none; /* enlever le soulignement */
+    font-weight: bold;
+    transition: background-color 0.3s; /* transition pour le survol */
+}
+
+.facebook {
+    background-color: #3b5998; /* couleur de fond de Facebook */
+}
+
+.twitter {
+    background-color: #1da1f2; /* couleur de fond de Twitter */
+}
+
+.instagram {
+    background-color: #e1306c; /* couleur de fond d'Instagram */
+}
+
+.btn:hover {
+    opacity: 0.8; /* effet de survol */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    .footer-bottom {
+        text-align: center;         /* Centrer le texte du bas du footer */
+        padding: 10px 0;           /* Espacement intérieur */
+        border-top: 1px solid #bea8a8; /* Ligne supérieure pour séparer le contenu */
+        background-color: rgba(171, 129, 165, 0.5); /* Fond semi-transparent pour le texte */
+    }
+    
+    .footer-bottom p {
+        margin: 5px 0;             /* Espacement entre les lignes */
+    }
+    
+    .footer-bottom a {
+        color: #f7e2b9;             /* Couleur des liens */
+        text-decoration: none;      /* Supprimer le soulignement des liens */
+    }
+    
+    .footer-bottom a:hover {
+        text-decoration: underline; /* Souligner le lien au survol */
+    }
+}

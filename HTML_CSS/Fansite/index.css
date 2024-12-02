@@ -1,0 +1,124 @@
+body {
+    background-image: url('images/artsfon.jpg');
+    background-size: cover; /* Redimensionne l'image pour qu'elle couvre tout l'écran */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+   
+}
+h2 a{
+    text-decoration: underline; /* Souligner le lien au survol */
+    text-decoration: none;      /* Supprimer le soulignement des liens */
+    color: rgb(169, 243, 218);
+}
+h2 a:hover{
+    text-decoration: underline; /* Souligner le lien au survol */
+  
+    color: rgb(160, 134, 214);
+
+}
+.titre {
+    font-family:fantasy;
+    font-size: 30px;
+    color: rgb(155, 134, 203);
+    padding: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width:90px ;
+    height: 90px;
+}
+.celebrity{
+    font-size: large;
+    font-family: fantasy;
+
+}
+
+.navbar {
+    background-color: #b67aa2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.star{
+    display: flex;
+    align-items: center;    /* Centrer verticalement le contenu */
+    position: relative;     /* Nécessaire pour positionner le texte */
+    width: 90%;            /* Largeur du conteneur */
+  
+    margin: 20px auto;     /* Centrer le conteneur */
+    overflow: hidden;       /* Pour cacher le débordement éventuel */
+    transition: all 0.3s ease; /* Transition douce pour tous les changements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte */
+}
+.star:hover {
+    background-color: #422448; /* Couleur de fond au survol */
+   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Augmenter l'ombre au survol */
+    transform: translateY(-5px); /* Déplacer légèrement le conteneur vers le haut */
+}
+
+.star img {
+    width: 120px; ;            /* la taille de l'image */
+    height: auto;           /* Conserver le ratio d'aspect */
+    display: flex;
+   align-items: center;
+   margin-left: 10%;
+}
+.block_text{
+    position: absolute;     /* Permet de positionner le texte par rapport au conteneur */
+    top: 50%;               /* Centrer verticalement */
+    left: 50%;              /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Ajuster la position du texte au centre */
+    color: white;           /* Couleur du texte */
+    text-align:start;     /* Centrer le texte */
+
+    padding: 20px;          /* Espacement autour du texte */
+    border-radius: 8px;     /* Coins arrondis */
+
+}
+
+.nos_stars{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer{
+
+    .footer-bottom {
+        text-align: center;         /* Centrer le texte du bas du footer */
+        padding: 10px 0;           /* Espacement intérieur */
+        border-top: 1px solid #bea8a8; /* Ligne supérieure pour séparer le contenu */
+        background-color: rgba(171, 129, 165, 0.5); /* Fond semi-transparent pour le texte */
+    }
+    
+    .footer-bottom p {
+        margin: 5px 0;             /* Espacement entre les lignes */
+    }
+    
+    .footer-bottom a {
+        color: #f7e2b9;             /* Couleur des liens */
+        text-decoration: none;      /* Supprimer le soulignement des liens */
+    }
+    
+    .footer-bottom a:hover {
+        text-decoration: underline; /* Souligner le lien au survol */
+    }
+}
