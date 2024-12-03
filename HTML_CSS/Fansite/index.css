@@ -1,16 +1,16 @@
 body {
     background-image: url('images/artsfon.jpg');
-    background-size: cover; /* Redimensionne l'image pour qu'elle couvre tout l'écran */
-    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+    background-size: cover; 
+    background-repeat: no-repeat; 
    
 }
 h2 a{
-    text-decoration: underline; /* Souligner le lien au survol */
-    text-decoration: none;      /* Supprimer le soulignement des liens */
+    text-decoration: underline; 
+    text-decoration: none;      
     color: rgb(169, 243, 218);
 }
 h2 a:hover{
-    text-decoration: underline; /* Souligner le lien au survol */
+    text-decoration: underline; 
   
     color: rgb(160, 134, 214);
 
@@ -55,42 +55,42 @@ img {
 
 .star{
     display: flex;
-    align-items: center;    /* Centrer verticalement le contenu */
-    position: relative;     /* Nécessaire pour positionner le texte */
-    width: 90%;            /* Largeur du conteneur */
+    align-items: center;    
+    position: relative;     
+    width: 90%;            
   
-    margin: 20px auto;     /* Centrer le conteneur */
-    overflow: hidden;       /* Pour cacher le débordement éventuel */
-    transition: all 0.3s ease; /* Transition douce pour tous les changements */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
-    border: 1px solid #ccc; /* Bordure */
-    border-radius: 10px; /* Coins arrondis */
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte */
-}
+    margin: 20px auto;     
+    overflow: hidden;       
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+
 .star:hover {
-    background-color: #422448; /* Couleur de fond au survol */
+    background-color: #422448; 
    
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Augmenter l'ombre au survol */
-    transform: translateY(-5px); /* Déplacer légèrement le conteneur vers le haut */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); 
 }
 
 .star img {
-    width: 120px; ;            /* la taille de l'image */
-    height: auto;           /* Conserver le ratio d'aspect */
+    width: 120px; ;            
+    height: auto;          
     display: flex;
    align-items: center;
    margin-left: 10%;
 }
 .block_text{
-    position: absolute;     /* Permet de positionner le texte par rapport au conteneur */
-    top: 50%;               /* Centrer verticalement */
-    left: 50%;              /* Centrer horizontalement */
-    transform: translate(-50%, -50%); /* Ajuster la position du texte au centre */
-    color: white;           /* Couleur du texte */
-    text-align:start;     /* Centrer le texte */
+    position: absolute;     
+    top: 50%;               
+    left: 50%;             
+    transform: translate(-50%, -50%); 
+    color: white;           
+    text-align:start;   
 
-    padding: 20px;          /* Espacement autour du texte */
-    border-radius: 8px;     /* Coins arrondis */
+    padding: 20px;        
+    border-radius: 8px;    
 
 }
 
@@ -103,22 +103,21 @@ img {
 footer{
 
     .footer-bottom {
-        text-align: center;         /* Centrer le texte du bas du footer */
-        padding: 10px 0;           /* Espacement intérieur */
-        border-top: 1px solid #bea8a8; /* Ligne supérieure pour séparer le contenu */
-        background-color: rgba(171, 129, 165, 0.5); /* Fond semi-transparent pour le texte */
+        text-align: center;         
+        padding: 10px 0;           
+        border-top: 1px solid #bea8a8; 
+        background-color: rgba(171, 129, 165, 0.5); 
     }
     
     .footer-bottom p {
-        margin: 5px 0;             /* Espacement entre les lignes */
+        margin: 5px 0;             
     }
     
     .footer-bottom a {
-        color: #f7e2b9;             /* Couleur des liens */
-        text-decoration: none;      /* Supprimer le soulignement des liens */
+        color: #f7e2b9;             
+        text-decoration: none;     
     }
     
     .footer-bottom a:hover {
-        text-decoration: underline; /* Souligner le lien au survol */
-    }
-}
+        text-decoration: underline; 
+    } }}

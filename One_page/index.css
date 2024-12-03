@@ -1,0 +1,112 @@
+body {
+    background-image: url('images/bk\ 06.jpeg');
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.page_body {    
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.tittle {
+    display: table;
+    margin: 0px auto 0px auto;    
+    color: rgb(20, 249, 237);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 45px;
+
+}
+
+.sub_tittle {
+    display: table;
+    margin: 0px 150px 0px 150px;    
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    margin-bottom: 40px;
+    
+    
+}
+h2 {
+    font-family: American Typewriter, serif;
+    color: azure;
+}
+
+.Profile_photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Profile_photo img {
+    width: 200px;
+    height: 250px;
+    border-radius: 100px;
+    border-width: 10px;
+    border-style: solid;    
+    border-color:color-mix(in srgb, rgb(65, 51, 51) 25%, rgb(9, 42, 224) 25%);
+    margin-bottom: 45px;
+}
+
+.Buttons {
+    gap: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.buttons {
+    
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 5px; 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 150px;
+}
+
+.buttons:hover {
+    transform: scale(1.2);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+}
+
+.cv{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.github {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.linkedin {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;    
+    justify-content: flex-end;
+    
+    
+}
+
+footer img {
+    overflow: hidden;
+    object-fit: cover;
+    height: 90px;
+}
+
